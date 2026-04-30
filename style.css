@@ -1,0 +1,74 @@
+*{
+.card:hover{
+  transform:translateY(-8px);
+}
+
+.card img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+}
+
+.card h3{
+  color:#8b4513;
+  margin:15px 0;
+}
+
+.card p{
+  padding:0 15px 20px;
+}
+
+.btn{
+  display:inline-block;
+  background:#8b4513;
+  color:white;
+  padding:12px 25px;
+  border:none;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.btn:hover{
+  background:#5c2e00;
+}
+
+.contact-form{
+  max-width:600px;
+  margin:0 auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:15px;
+  margin-bottom:20px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
+.contact-info{
+  margin-top:30px;
+}
+
+footer{
+  background:#5c2e00;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
+
+@media(max-width:768px){
+
+  .hero-text h2{
+    font-size:34px;
+  }
+
+  nav a{
+    display:block;
+    margin:10px 0;
+  }
+
+}
