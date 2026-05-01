@@ -5,7 +5,26 @@ select{
   border:1px solid #ccc;
   border-radius:8px;
 }
+.spice-options{
+  text-align:left;
+  margin-bottom:20px;
+}
 
+.spice-options label{
+  display:block;
+  margin-bottom:10px;
+  font-size:18px;
+}
+
+.product-order{
+  margin-bottom:25px;
+  text-align:left;
+}
+
+.product-order h3{
+  margin-bottom:10px;
+  color:#8b4513;
+}
 .contact-form{
   max-width:600px;
   margin:auto;
