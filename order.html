@@ -21,19 +21,29 @@
            placeholder="Email Address"
            required>
 
-    <select name="spice" required>
+    <div class="spice-options">
 
-      <option value="">Select Spice</option>
+  <label>
+    <input type="checkbox" name="spices[]" value="Oregano">
+    Oregano
+  </label>
 
-      <option value="Oregano">Oregano</option>
+  <label>
+    <input type="checkbox" name="spices[]" value="Red Chilli">
+    Red Chilli
+  </label>
 
-      <option value="Red Chilli">Red Chilli</option>
+  <label>
+    <input type="checkbox" name="spices[]" value="Turmeric">
+    Turmeric
+  </label>
 
-      <option value="Turmeric">Turmeric</option>
+  <label>
+    <input type="checkbox" name="spices[]" value="Black Pepper">
+    Black Pepper
+  </label>
 
-      <option value="Black Pepper">Black Pepper</option>
-
-    </select>
+</div>
 
     <input type="number"
            name="quantity"
