@@ -1,0 +1,25 @@
+select{
+  width:100%;
+  padding:15px;
+  margin-bottom:20px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
+.contact-form{
+  max-width:600px;
+  margin:auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:15px;
+  margin-bottom:20px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
+.contact-form button{
+  width:100%;
+}
