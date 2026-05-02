@@ -21,9 +21,17 @@ select{
   text-align:left;
 }
 
-.product-order h3{
+.product-order label{
+  display:block;
   margin-bottom:10px;
-  color:#8b4513;
+  font-weight:bold;
+}
+
+.product-order input[type="number"]{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:8px;
 }
 .contact-form{
   max-width:600px;
